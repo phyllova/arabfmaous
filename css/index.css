@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+#home {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#choose {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+#fbp {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 80%;
+  display: none;
+}
+#igp {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 80%;
+  display: none;
+}
+header img {
+  width: 98%;
+  height: 70%;
+}
+header hr {
+  font-family: fontawesome;
+  width: 100%;
+  height: 5px;
+  color: #c31b28;
+  background-color: #c31b28;
+  border-style: none;
+}
+#menu {
+  margin-top: 5px;
+  margin-left: 25px;
+  width: 100px;
+  grid-area: but;
+  font-size: large;
+  font-family: sans-serif;
+}
+#nav {
+  margin-right: -25px;
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#nav img {
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#nav:active {
+  margin-left: 80px;
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#context {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  " but . . . . nav";
+}
+#topper img {
+  width: 98%;
+  height: 100%;
+}
+#blue {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 5, 5);
+  height: 50px;
+  width: 100%;
+  color: white;
+}
+#blue h2 {
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+#news {
+  margin: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+#news p {
+  width: 90vw;
+  margin-right: 2rem;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 1px;
+}
+#people img {
+  width: 70vw;
+  height: 30vh;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 2px;
+}
+#people p {
+  width: 65vw;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 2px;
+}
+#people h2 {
+  margin-top: 25px;
+  line-height: 2px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 2px;
+}
+#tag {
+  margin-left: 10px;
+  width: 20%;
+  height: 20px;
+  font-weight: bolder;
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+video {
+  background-color: silver;
+}
+#voter {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  width: 97%;
+  margin-top: 20px;
+}
+#voter h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#vote {
+  background-color: rgb(14, 14, 15);
+  color: white;
+  font-weight: bolder;
+  width: 60%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+#vote2 {
+  background-color: rgb(6, 5, 6);
+  color: white;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 50%;
+  height: 38px;
+  border-radius: 3px;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-name: dim;
+
+
+}
+@keyframes dim {
+  from {
+    background-color: rgb(4, 4, 4);
+
+  }
+  to {
+    background-color: rgb(119, 0, 255);
+
+  }
+}
+#vote2:active {
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 80%;
+  height: 38px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+#vote:active {
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+  width: 70%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+#fb {
+  width: 50px;
+  height: 50px;
+}
+#fb:active {
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 1px 1px gray;
+}
+#ig {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+}
+#ig:active {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+  box-shadow: 1px 1px 1px gray;
+}
+#choose {
+  background-color: white;
+  width: 80%;
+  height: 30vh;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: rgba(42, 6, 6, 0.292);
+  position: fixed;
+  top: 40vh;
+  left: 10vw;
+  z-index: 30;
+}
+
+#fblogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+#iglogo {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  left: 10px;
+}
+#fb2 {
+  font-size: 40px;
+  color: #3c6eb5ea;
+  text-shadow: 0px 0px 0px black;
+}
+#fb-log {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+.fb-bug {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.ggt {
+  position: relative;
+  top: 200px;
+}
+.ppt {
+  position: relative;
+  top: 170px;
+}
+.collect {
+  position: relative;
+  top: 170px;
+}
+.ggt input {
+  width: 68%;
+  height: 38px;
+  background-color: #cdd8da;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.ppt input {
+  width: 68%;
+  height: 38px;
+  background-color: #e4e4e4;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+  top: -30px;
+}
+#ig-log {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+#fb-log:active {
+  width: 68%;
+  height: 38px;
+  background-color: #5599d0;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.fb-bug:active {
+  width: 68%;
+  height: 38px;
+  background-color: #5599d0;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
